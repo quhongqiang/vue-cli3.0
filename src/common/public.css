@@ -1,0 +1,47 @@
+.display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.button {
+  display: inline-block;
+  padding: 5px 15px;
+  background: red;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 7px;
+  text-align: center;
+  cursor:pointer;
+}
+.exammple {
+  transition: ease-in .3s;
+  background: linear-gradient(0, #000 2px, #000 2px) no-repeat, 
+              linear-gradient(-90deg, #000 2px, #000 2px) no-repeat, 
+              linear-gradient(-180deg, #000 2px, #000 2px) no-repeat, 
+              linear-gradient(-270deg, #000 2px, #000 2px) no-repeat;
+  background-size: 0 2px, 2px 0, 0 2px, 0 0;
+  background-position: left top, right top, right bottom, left bottom;
+}
+.exammple:hover {
+  background-size: 100% 2px,  2px 100%, 100% 2px, 2px 100%;
+}
+
+
+
+
+
